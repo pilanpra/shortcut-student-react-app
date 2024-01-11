@@ -158,7 +158,6 @@ body {
   .resume-section {
     display: flex;
     flex-direction: column;
-    margin: 70px;
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     height: auto;
