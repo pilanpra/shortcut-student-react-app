@@ -5,7 +5,9 @@ import Section from './components/Section';
 import HomeSection from './components/HomeSection';
 import ResumeSection from './components/ResumeSection';
 import ToolSection from './components/ToolSection';
+import PrepSection from './components/PrepSection';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Col, Row } from 'antd';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -44,22 +46,25 @@ function App() {
       <header className="App-header">
         <MenuBar activeSection={activeSection} />
       </header>
-      <main>
-      <Section id="home" title="Home Section">
-          <HomeSection />
-        </Section>
-        <Section id="resume" title="Resume Section">
-        <ResumeSection />
-        </Section>
-        <Section id="tools" title="Tools Section">
-        <ToolSection />
-        </Section>
-        <Section id="job-tracker" title="Job Tracker Section">
-          {/* Add your job tracker section content here */}
-        </Section>
-        <Section id="interview-prep" title="Interview Preparation Section">
-          {/* Add your interview prep section content here */}
-        </Section>
+      <main className="body-style">
+        <Col>
+          <Section id="home" title="Home Section">
+            <HomeSection />
+          </Section>
+          <Section id="resume" title="Resume Section">
+          <ResumeSection />
+            </Section>
+          <Section id="tools" title="Tools Section">
+            <ToolSection />
+          </Section>
+          {/* <Section id="job-tracker" title="Job Tracker Section"> */}
+            {/* Add your job tracker section content here */}
+          {/* </Section> */}
+          <Section id="interview-prep" title="Interview Preparation Section">
+            <PrepSection />
+            {/* Add your interview prep section content here */}
+          </Section>
+        </Col>
       </main>
     </div>
   );

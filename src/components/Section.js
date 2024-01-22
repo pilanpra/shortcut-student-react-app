@@ -1,12 +1,13 @@
 import React from 'react';
+import { Col, Row } from 'antd';
 
 const Section = ({ id, title, children }) => {
   return (
-    <section id={id}>
+    <Row id={id} className="section-row">
       {/* <h6>{title}</h6> */}
       {children}
       <hr></hr>
-    </section>
+    </Row>
     
   );
 }

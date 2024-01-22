@@ -2,18 +2,26 @@ import React from 'react';
 import HomeImage from '../../src/img/HomePage.png';
 import HomeBoldTextImage from '../../src/img/HomeBoldText.png';
 import HomeTextImage from '../../src/img/HomeText.png';
+import { Col, Row } from 'antd';
 
 const HomeSection = () => {
     
   return (
     <div className="home-section">
-      <div className="text">
-        <img src={HomeBoldTextImage} alt="Home" className="centered-image" />
-        <img src={HomeTextImage} alt="Home" className="centered-image" />
-      </div>
-      <div className="image-container">
-        <img src={HomeImage} alt="Home" className="centered-image" />
-      </div>
+      <Row>
+        <Col span={2} />
+        <Col span={12}>
+          <p className='big-font'>Empower your job search with
+            <br />x's curated tools and strategies.
+          </p>
+          <p className='medium-font'>Explore our templates, tools, and interview preparation resources to boost your career.</p>
+        </Col>
+        <Col span={1} />
+        <Col span={7}>
+          <img src={HomeImage} alt="Home" className="centered-image" />
+        </Col>
+        <Col span={2} />
+      </Row>
     </div>
   );
 }

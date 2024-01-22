@@ -40,6 +40,7 @@ body {
     font: Roboto;
     background-color: #333;
     padding-left: 20px;
+    z-index: 2000;
   }
   
   .menu nav ul {
@@ -106,12 +107,20 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .section-row {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
     
   .home-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 95vh;
+    margin-bottom: 100px;
   }
   
   .text {
@@ -220,6 +229,21 @@ body {
     margin-top: 20px;
     text-align: center;
   }
+
+  .big-font {
+    font-family: satoshi;
+    font-size: 50px;
+  }
+
+  .medium-font {
+    font-family: satoshi;
+    font-size: 20px;
+  }
+
+  .body-style {
+    background-color: #dbcfcf;
+  }
+  
   
   
   /* Add styles for each section as needed */
