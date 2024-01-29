@@ -1,5 +1,9 @@
 import React from 'react';
 import { Col, Row } from 'antd';
+import Interviewingio from '../img/interviewingio.svg'
+import Leetcode from '../img/leetcode.svg'
+import Adplist from '../img/adplist.svg'
+import Pramp from '../img/pramp.svg'
 
 const PrepSection = () => {
     return (
@@ -15,6 +19,31 @@ const PrepSection = () => {
                             <br/>Practise until interviews become your stronghold.  
                             <br />
                         </p>
+                        <br />
+                        <Row span={24}>
+                            <Col span={5}>
+                                <a href="https://interviewing.io"  target="_blank">
+                                    <img src={Interviewingio} width={70} height={70} />   
+                                </a>
+                            </Col>
+                            <Col span={1} />
+                            <Col span={5}>
+                                <a href="https://leetcode.com"  target="_blank">
+                                    <img src={Leetcode} width={70} height={70} />   
+                                </a>
+                            </Col>
+                            <Col span={1} />
+                            <Col span={5}>
+                                <a href="https://adplist.org"  target="_blank">
+                                    <img src={Adplist} width={70} height={70} />   
+                                </a>
+                            </Col>
+                            <Col span={5}>
+                                <a href="https://www.pramp.com"  target="_blank">
+                                    <img src={Pramp} width={70} height={70} />   
+                                </a>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col span={1} />
                     <Col span={12}>
