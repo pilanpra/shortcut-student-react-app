@@ -12,7 +12,7 @@ const PrepSection = () => {
                 <Row span={24}>
                     <Col span={1} />
                     <Col span={9}>
-                        <p className='big-font'>Master interview prep and shake off those nerves
+                        <p className='big-font'>Master interview prep and shake off those nerves 
                             <br />
                         </p>
                         <p className='medium-font'>Utilize the right tools and methodologies to refine your storytelling skills. 
