@@ -11,10 +11,10 @@ const HomeSection = () => {
       <Row>
         <Col span={2} />
         <Col span={12}>
-          <p className='big-font'>Empower your job search with
-            <br />x's curated tools and strategies.
+        <p className='big-font' style={{ textAlign: '-webkit-left', paddingTop: '27%' }}>
+            Empower your job search with x's curated tools and strategies.
           </p>
-          <p className='medium-font'>Explore our templates, tools, and interview preparation resources to boost your career.</p>
+          <p className='medium-font' style={{ textAlign: '-webkit-left' }}>Explore our templates, tools, and interview preparation resources to boost your career.</p>
         </Col>
         <Col span={1} />
         <Col span={7}>

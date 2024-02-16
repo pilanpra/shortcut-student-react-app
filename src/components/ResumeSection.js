@@ -49,7 +49,7 @@ const ResumeSection = () => {
       <Row>
         <Col span={5} />
         <Col span={5}>
-          <p className='big-font'>Create a professional resume with our easy-to-use templates. Stand out from the crowd and increase your chances of landing your dream job.</p>
+          <p className='big-font' style={{ textAlign: '-webkit-left' }}>Create a professional resume with our easy-to-use templates. Stand out from the crowd and increase your chances of landing your dream job.</p>
         </Col>
         <Col span={12}>
           <div className="image-container">
@@ -72,7 +72,7 @@ const ResumeSection = () => {
           </div> 
         </Col>
         <Col span={5}>
-          <p className='big-font'>Unlock a wealth of resources tailored specifically for master's students, ranging from expertly crafted resume templates to insightful interview guides.</p>
+          <p className='big-font' style={{ textAlign: '-webkit-right' }}>Unlock a wealth of resources tailored specifically for master's students, ranging from expertly crafted resume templates to insightful interview guides.</p>
         </Col>
       </Row>
       <br />

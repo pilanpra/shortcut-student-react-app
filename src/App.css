@@ -119,8 +119,10 @@ body {
   .home-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin-bottom: 20%;
+    height: 100%;
+    width: 100%;
   }
   
   .text {
@@ -160,7 +162,7 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 500px; 
-    padding-top: 20px;
+    padding-top: 27%;
     /* Set a max-height for the image box */
   }
 
@@ -170,6 +172,7 @@ body {
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     height: auto;
+    padding-top: 3%
   }
   
   .top-section,
