@@ -22,25 +22,25 @@ const PrepSection = () => {
                         <br />
                         <Row span={24}>
                             <Col span={5}>
-                                <a href="https://interviewing.io"  target="_blank">
-                                    <img src={Interviewingio} width={70} height={70} />   
+                                <a href="https://interviewing.io"  target="_blank" rel="noreferrer">
+                                    <img src={Interviewingio} width={70} height={70} alt=''/>   
                                 </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                                <a href="https://leetcode.com"  target="_blank">
-                                    <img src={Leetcode} width={70} height={70} />   
+                                <a href="https://leetcode.com"  target="_blank" rel="noreferrer">
+                                    <img src={Leetcode} width={70} height={70} alt=''/>   
                                 </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                                <a href="https://adplist.org"  target="_blank">
-                                    <img src={Adplist} width={70} height={70} />   
+                                <a href="https://adplist.org"  target="_blank" rel="noreferrer">
+                                    <img src={Adplist} width={70} height={70} alt=''/>   
                                 </a>
                             </Col>
                             <Col span={5}>
-                                <a href="https://www.pramp.com"  target="_blank">
-                                    <img src={Pramp} width={70} height={70} />   
+                                <a href="https://www.pramp.com"  target="_blank" rel="noreferrer">
+                                    <img src={Pramp} width={70} height={70} alt=''/>   
                                 </a>
                             </Col>
                         </Row>

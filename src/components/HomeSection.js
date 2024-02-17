@@ -1,7 +1,5 @@
 import React from 'react';
 import HomeImage from '../../src/img/HomePage.png';
-import HomeBoldTextImage from '../../src/img/HomeBoldText.png';
-import HomeTextImage from '../../src/img/HomeText.png';
 import { Col, Row } from 'antd';
 
 const HomeSection = () => {

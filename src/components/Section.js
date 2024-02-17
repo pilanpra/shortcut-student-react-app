@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'antd';
+import { Row } from 'antd';
 
 const Section = ({ id, title, children }) => {
   return (

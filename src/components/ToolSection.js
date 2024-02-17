@@ -44,26 +44,26 @@ const ToolsSection = () => {
                     <Col span={13} style={{ paddingTop: '12px' }}>
                         <Row span={24}>
                             <Col span={5}>
-                                <a href="https://simplify.jobs"  target="_blank">
-                                    <img src={Simplify} width={70} height={70} />                
+                                <a href="https://simplify.jobs"  target="_blank" rel="noreferrer">
+                                    <img src={Simplify} width={70} height={70} alt=''  />                
                                 </a>                
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                                <a href="https://www.careerflow.ai"  target="_blank">
-                                    <img src={Careerflow} width={70} height={70} />
+                                <a href="https://www.careerflow.ai"  target="_blank" rel="noreferrer">
+                                    <img src={Careerflow} width={70} height={70} alt='' />
                                 </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                                <a href="https://app.wonsulting.ai"  target="_blank">
-                                    <img src={Wonsulting} width={70} height={70} />
+                                <a href="https://app.wonsulting.ai"  target="_blank" rel="noreferrer">
+                                    <img src={Wonsulting} width={70} height={70}  alt=''/>
                                 </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                                <a href="https://app.jobscan.co/"  target="_blank">
-                                    <img src={Jobscan} width={70} height={70} />
+                                <a href="https://app.jobscan.co/"  target="_blank" rel="noreferrer">
+                                    <img src={Jobscan} width={70} height={70} alt=''/>
                                 </a>   
                             </Col>                           
                         </Row>
@@ -74,26 +74,26 @@ const ToolsSection = () => {
                 <Col span={13} style={{ paddingTop: '12px' }}>
                         <Row span={24}>
                             <Col span={5}>
-                            <a href="https://www.linkedin.com/"  target="_blank">
-                                <img src={Linkedin} width={70} height={70} />
+                            <a href="https://www.linkedin.com/"  target="_blank" rel="noreferrer">
+                                <img src={Linkedin} width={70} height={70} alt=''/>
                             </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                            <a href="https://hunter.io/"  target="_blank">
-                                <img src={Hunter} width={70} height={70} />   
+                            <a href="https://hunter.io/"  target="_blank" rel="noreferrer">
+                                <img src={Hunter} width={70} height={70} alt=''/>   
                             </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                            <a href="https://6sense.com/"  target="_blank">
-                                <img src={Sixsense} width={70} height={70} />  
+                            <a href="https://6sense.com/"  target="_blank" rel="noreferrer">
+                                <img src={Sixsense} width={70} height={70} alt=''/>  
                             </a> 
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                            <a href="https://rocketreach.co/"  target="_blank">
-                                <img src={RocketReach} width={70} height={70} />  
+                            <a href="https://rocketreach.co/"  target="_blank" rel="noreferrer">
+                                <img src={RocketReach} width={70} height={70} alt='' />  
                             </a> 
                             </Col>
                         </Row>
@@ -112,20 +112,20 @@ const ToolsSection = () => {
                     <Col span={13} style={{ paddingTop: '12px' }}>
                         <Row span={24}>
                             <Col span={5}>
-                            <a href="github.com"  target="_blank">
-                                <img src={Github} width={70} height={70} />   
+                            <a href="github.com"  target="_blank" rel="noreferrer">
+                                <img src={Github} width={70} height={70} alt='' />   
                             </a>
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                            <a href="https://webflow.com/" target="_blank">
-                                <img src={Webflow} width={70} height={70} />
+                            <a href="https://webflow.com/" target="_blank" rel="noreferrer">
+                                <img src={Webflow} width={70} height={70} alt=''/>
                             </a>   
                             </Col>
                             <Col span={1} />
                             <Col span={5}>
-                            <a href = "https://adplist.org/" target = "_blank">
-                                <img src={Upwork} width={70} height={70} />   
+                            <a href = "https://adplist.org/" target = "_blank" rel="noreferrer">
+                                <img src={Upwork} width={70} height={70} alt=''/>   
                             </a>
                             </Col>
                         </Row>

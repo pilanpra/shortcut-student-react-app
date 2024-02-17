@@ -7,7 +7,7 @@ import ResumeSection from './components/ResumeSection';
 import ToolSection from './components/ToolSection';
 import PrepSection from './components/PrepSection';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Col, Row } from 'antd';
+import { Col } from 'antd';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
