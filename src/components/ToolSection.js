@@ -38,7 +38,7 @@ const ToolsSection = () => {
                 <br /><br /><br />
                 <Row span={24} style={{ marginBottom: '100px' }}>
                     <Col span={10}>
-                        <h3>Unlock a wealth of resources tailored specifically for master's students.</h3>
+                        <h3>Job automation tools to speed up your applications the right way.</h3>
                     </Col>
                     <Col span={1} />
                     <Col span={13} style={{ paddingTop: '12px' }}>
@@ -100,13 +100,13 @@ const ToolsSection = () => {
                     </Col>
                     <Col span={1} />
                     <Col span={10}>
-                        <h3>Unlock a wealth of resources tailored specifically for master's students.</h3>
+                        <h3>Networking platforms to directly get in touch with the right people in the target industry.</h3>
                     </Col>
                 </Row>
 
                 <Row span={24} style={{ marginBottom: '100px' }}>
                     <Col span={10}>
-                        <h3>Unlock a wealth of resources tailored specifically for master's students.</h3>
+                        <h3>Create your brand and seek feedback</h3>
                     </Col>
                     <Col span={1} />
                     <Col span={13} style={{ paddingTop: '12px' }}>

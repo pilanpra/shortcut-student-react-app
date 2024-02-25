@@ -171,7 +171,7 @@ body {
     flex-direction: column;
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
-    height: auto;
+    height: 'auto';
     padding-top: 3%
   }
   
@@ -236,6 +236,11 @@ body {
   .big-font {
     font-family: satoshi;
     font-size: 50px;
+  }
+
+  .tools-font {
+    font-family: satoshi;
+    font-size: 30px;
   }
 
   .medium-font {

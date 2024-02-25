@@ -15,10 +15,8 @@ const PrepSection = () => {
                         <p className='big-font'>Master interview prep and shake off those nerves 
                             <br />
                         </p>
-                        <p className='medium-font'>Utilize the right tools and methodologies to refine your storytelling skills. 
-                            <br/>Practise until interviews become your stronghold.  
-                            <br />
-                        </p>
+                        <p className='medium-font'>Utilize the right tools to refine your storytelling skills and practise until interviews become your stronghold.  
+                           </p>
                         <br />
                         <Row span={24}>
                             <Col span={5}>

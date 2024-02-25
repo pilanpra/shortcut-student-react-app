@@ -10,9 +10,9 @@ const HomeSection = () => {
         <Col span={2} />
         <Col span={12}>
         <p className='big-font' style={{ textAlign: '-webkit-left', paddingTop: '27%' }}>
-            Empower your job search with x's curated tools and strategies.
+            Empower your job search with Shorcut's curated tools and strategies.
           </p>
-          <p className='medium-font' style={{ textAlign: '-webkit-left' }}>Explore our templates, tools, and interview preparation resources to boost your career.</p>
+          <p className='medium-font' style={{ textAlign: '-webkit-left' }}>Explore our templates, tools, and interview preparation resources to stay ahead of the curve.</p>
         </Col>
         <Col span={1} />
         <Col span={7}>

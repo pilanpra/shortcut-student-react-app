@@ -2,8 +2,10 @@ import React from 'react';
 import ExperiencedResume from '../../src/img/experienced_resume.jpeg';
 import NewGradResume from '../../src/img/new_grad.jpeg';
 import JakesResume from '../../src/img/jakes.jpeg'; 
-import { Col, Row } from 'antd';
+import { Col, Row, Card } from 'antd';
 import { DownloadOutlined }from '@ant-design/icons';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const ResumeSection = () => {
 
@@ -46,48 +48,76 @@ const ResumeSection = () => {
   return (
     <div className="resume-section">
       {/* experienced resume */}
-      <Row>
-        <Col span={5} />
-        <Col span={5}>
-          <p className='big-font' style={{ textAlign: '-webkit-left' }}>Create a professional resume with our easy-to-use templates. Stand out from the crowd and increase your chances of landing your dream job.</p>
-        </Col>
-        <Col span={12}>
-          <div className="image-container">
-            <a href="ExperiencedResume" onClick={onDownloadExperiencedResume} style={{ position: 'relative' }}>
-              <img style={{ width: '100%', opacity: '0.6' }} src={ExperiencedResume} className='centered-image-doc' alt="Document Preview" />
-              <span style={{ zIndex: '2', position: 'absolute', top: '45%', right: '45%', fontSize: '50px' }}><DownloadOutlined /></span>
-            </a>
-          </div> 
-        </Col>
-      </Row>
+      <Col span={3} />
+      <Col span={18}>
+        <Card style={{ backgroundColor: '#b1b1ac' }}>
+          <Carousel autoPlay>
+            <div>
+              <Row>
+                <Col span={4} />
+                <Col span={16}>
+                  <p className='big-font' style={{ textAlign: '-webkit-left', paddingTop: '32px' }}>Create a professional resume with our easy-to-use templates. Without going from scratch, simply download the 'close-to-industry-level' resume that fits your profile and start editing.</p>
+                </Col>
+                <Col span={4} />
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col span={6} />
+                <Col span={12}>
+                  <b><p className='medium-font'>TEMPLATE 1</p></b>
+                  <div className="image-container">
+                      <a href="ExperiencedResume" onClick={onDownloadExperiencedResume} style={{ position: 'relative', marginTop: '16px' }}>
+                        <img style={{ width: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={ExperiencedResume} className='centered-image-doc' alt="Document Preview" />
+                        <span style={{ zIndex: '2', position: 'absolute', top: '45%', right: '45%', fontSize: '50px' }}><DownloadOutlined /></span>
+                      </a>
+                    </div>
+                </Col>
+                <Col span={6} />
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col span={6} />
+                <Col span={12}>
+                  <b><p className='medium-font'>TEMPLATE 2</p></b>
+                  <div className="image-container">
+                    <a href="NewGradResume" onClick={onDownloadNewGradResume} style={{ position: 'relative', marginTop: '16px' }}>
+                      <img style={{ width: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={NewGradResume} className='centered-image-doc' alt="Document Preview" />
+                      <span style={{ zIndex: '2', position: 'absolute', top: '45%', right: '45%', fontSize: '50px' }}><DownloadOutlined /></span>
+                    </a>
+                  </div> 
+                </Col>
+                <Col span={6} />
+              </Row>
+            </div>
+            <div>
+              <Row>
+                <Col span={6} />
+                <Col span={12}>
+                  <b><p className='medium-font'>TEMPLATE 3</p></b>
+                  <div className="image-container">
+                    <a href="JakesResume" onClick={onDownloadJakesResume} style={{ position: 'relative' }}>
+                      <img style={{minHeight: '150%', maxWidth: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={JakesResume} className='centered-image-doc' alt="Document Preview" />
+                      <span style={{ zIndex: '2', position: 'absolute', top: '45%', left: '45%', fontSize: '50px' }}><DownloadOutlined /></span>
+                    </a>
+                  </div> 
+                </Col>
+                <Col span={6} />
+              </Row>
+            </div>
+          </Carousel>
+        </Card>
+      </Col>
+      <Col span={3} />
+      
       {/* new grad resume */}
-      <Row style={{ marginTop: '4%' }}>
-        <Col span={2} />
-        <Col span={12}>
-          <div className="image-container">
-            <a href="NewGradResume" onClick={onDownloadNewGradResume} style={{ position: 'relative' }}>
-              <img style={{ width: '100%', opacity: '0.6' }} src={NewGradResume} className='centered-image-doc' alt="Document Preview" />
-              <span style={{ zIndex: '2', position: 'absolute', top: '45%', right: '45%', fontSize: '50px' }}><DownloadOutlined /></span>
-            </a>
-          </div> 
-        </Col>
-        <Col span={5}>
-          <p className='big-font' style={{ textAlign: '-webkit-right' }}>Unlock a wealth of resources tailored specifically for master's students, ranging from expertly crafted resume templates to insightful interview guides.</p>
-        </Col>
-      </Row>
       <br />
       {/* jakes resume */}
-      <Row style={{ marginTop: '4%' }}>
+      {/* <Row style={{ marginTop: '4%' }}>
         <Col span={2} />
-        <Col span={12}>
-          <div className="image-container">
-            <a href="JakesResume" onClick={onDownloadJakesResume} style={{ position: 'relative' }}>
-              <img style={{ maxWidth: '200%', opacity: '0.6' }} src={JakesResume} className='centered-image-doc' alt="Document Preview" />
-              <span style={{ zIndex: '2', position: 'absolute', top: '45%', left: '80%', fontSize: '50px' }}><DownloadOutlined /></span>
-            </a>
-          </div> 
-        </Col>
-      </Row>
+        
+      </Row> */}
     </div>
   );
 }
