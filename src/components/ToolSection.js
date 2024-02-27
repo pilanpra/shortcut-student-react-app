@@ -19,7 +19,7 @@ const ToolsSection = () => {
     return (
         <div className="tools-section">
             <div className="video-container">
-                <iframe width="750" height="400" src="https://www.youtube.com/embed/uD4izuDMUQA?si=-unfFi4JxZYazz1G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="750" height="400" src="https://www.youtube.com/watch?v=7WaGFlpCSEc&ab_channel=RamGopal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <Col>
                 <Row span={24} gutter={[16, 40]}>
@@ -30,7 +30,7 @@ const ToolsSection = () => {
                         and reclaim valuable time.</p>
                         <p className='medium-font'>Discover a treasure trove of tools designed to accelerate
                             <br/>your job search, minimize time spent on applications, and
-                            <br />optimize your chances of securing interviews
+                            <br />optimize your chances of securing interviews. 
                         </p>
                     </Col>
                     <Col span={4} />
@@ -106,7 +106,7 @@ const ToolsSection = () => {
 
                 <Row span={24} style={{ marginBottom: '100px' }}>
                     <Col span={10}>
-                        <h3>Create your brand and seek feedback</h3>
+                        <h3>Create your brand, connect and seek feedback from industry experts.</h3>
                     </Col>
                     <Col span={1} />
                     <Col span={13} style={{ paddingTop: '12px' }}>

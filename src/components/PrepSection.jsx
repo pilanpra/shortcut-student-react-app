@@ -45,7 +45,7 @@ const PrepSection = () => {
                     </Col>
                     <Col span={1} />
                     <Col span={12}>
-                        <iframe width="550" height="500" src="https://www.youtube.com/embed/uD4izuDMUQA?si=-unfFi4JxZYazz1G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="550" height="500" src="https://www.youtube.com/watch?v=7WaGFlpCSEc&ab_channel=RamGopal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </Col>
                     <Col span={1} />
                 </Row>
