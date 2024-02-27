@@ -56,7 +56,7 @@ const ResumeSection = () => {
               <Row>
                 <Col span={4} />
                 <Col span={16}>
-                  <p className='big-font' style={{ textAlign: '-webkit-left', paddingTop: '32px' }}>Create a professional resume with our easy-to-use templates. Without going from scratch, simply download the 'close-to-industry-level' resume that fits your profile and start editing.</p>
+                  <p className='big-font' style={{ fontFamily: 'Satoshi-Black',textAlign: '-webkit-left', paddingTop: '32px' }}>Create a professional resume with our easy-to-use templates. Without going from scratch, simply download the 'close-to-industry-level' resume that fits your profile and start editing.</p>
                 </Col>
                 <Col span={4} />
               </Row>
@@ -65,7 +65,7 @@ const ResumeSection = () => {
               <Row>
                 <Col span={6} />
                 <Col span={12}>
-                  <b><p className='medium-font'>TEMPLATE 1</p></b>
+                  <b><p className='medium-font' style={{ fontFamily: 'Satoshi-Medium'}}>TEMPLATE 1</p></b>
                   <div className="image-container">
                       <a href="ExperiencedResume" onClick={onDownloadExperiencedResume} style={{ position: 'relative', marginTop: '16px' }}>
                         <img style={{ width: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={ExperiencedResume} className='centered-image-doc' alt="Document Preview" />
@@ -80,7 +80,7 @@ const ResumeSection = () => {
               <Row>
                 <Col span={6} />
                 <Col span={12}>
-                  <b><p className='medium-font'>TEMPLATE 2</p></b>
+                  <b><p className='medium-font' style={{ fontFamily: 'Satoshi-Medium'}}>TEMPLATE 2</p></b>
                   <div className="image-container">
                     <a href="NewGradResume" onClick={onDownloadNewGradResume} style={{ position: 'relative', marginTop: '16px' }}>
                       <img style={{ width: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={NewGradResume} className='centered-image-doc' alt="Document Preview" />
@@ -95,7 +95,7 @@ const ResumeSection = () => {
               <Row>
                 <Col span={6} />
                 <Col span={12}>
-                  <b><p className='medium-font'>TEMPLATE 3</p></b>
+                  <b><p className='medium-font' style={{ fontFamily: 'Satoshi-Medium'}}>TEMPLATE 3</p></b>
                   <div className="image-container">
                     <a href="JakesResume" onClick={onDownloadJakesResume} style={{ position: 'relative' }}>
                       <img style={{minHeight: '150%', maxWidth: '100%', opacity: '0.6', backgroundColor: '#FFFFFF' }} src={JakesResume} className='centered-image-doc' alt="Document Preview" />
