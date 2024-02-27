@@ -59,8 +59,17 @@ const PrepSection = () => {
                     <Col span={1} />
                 </Row>
             </Col>
+            <footer>
+                <p style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }}>  &copy; 2024 Shortcut. All rights reserved.</p>
+                <div>
+                    <a style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/abhinavkrishnamurthy/" target="_blank" rel="noopener noreferrer">Abhinav K</a> | 
+                    <a  style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/prasad-pilankar-5b2627144/" target="_blank" rel="noopener noreferrer">Prasad P</a> |
+                    <a style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/ramgopal96/" target="_blank" rel="noopener noreferrer">Ramgopal</a>
+                </div>
+            </footer>
 
         </div>
+
     );
 };
 
