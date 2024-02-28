@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+## Shortcut Student
+Shortcut Student is a web application designed to empower students in their job search by providing curated tools and strategies. The website is hosted on https://shortcutstudent.netlify.app/.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Job Search Tools: Explore a curated collection of tools to streamline your job search process.
+Strategies: Discover effective strategies to enhance your job search and increase your chances of success.
+User-Friendly Interface: Navigate through the website effortlessly with an intuitive user interface.
+Responsive Design: Access the website seamlessly across devices of all sizes, including desktops, tablets, and mobile phones.
+
+
+## Technologies Used
+Frontend: React.js, HTML5, CSS3
+Hosting: Netlify
+
+## Usage
+
+### Visit https://shortcutstudent.netlify.app/ in your web browser.
+Explore the various sections of the website to access job search tools and strategies.
+Navigate through the site using the intuitive user interface.
+Enjoy an optimized experience tailored to empower your job search journey.# Getting Started with Create React App
+
+
 
 ## Available Scripts
 
