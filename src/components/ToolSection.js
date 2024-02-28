@@ -22,7 +22,7 @@ const ToolsSection = () => {
                 <iframe
                     class="rounded-iframe"
                     width="560"
-                    height="315"
+                    height="360"
                     src="https://www.youtube-nocookie.com/embed/7WaGFlpCSEc?si=gbKJwxV_I3d1OIYd"
                     title="YouTube video player"
                     frameborder="0"
@@ -122,7 +122,7 @@ const ToolsSection = () => {
                     <Col span={13} style={{ paddingTop: '12px' }}>
                         <Row span={24}>
                             <Col span={5}>
-                                <a href="github.com" target="_blank" rel="noreferrer">
+                                <a href="https://github.com" target="_blank" rel="noreferrer">
                                     <img src={Github} width={70} height={70} alt='' />
                                 </a>
                             </Col>

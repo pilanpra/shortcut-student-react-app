@@ -11,7 +11,7 @@ const PrepSection = () => {
             <Col>
                 <Row span={24}>
                     <Col span={1} />
-                    <Col span={9}>
+                    <Col span={9} style={{ marginTop: '-6%' }}>
                         <p className='big-font' style={{ fontFamily: 'Satoshi-Black', textAlign: '-webkit-left' }}>Master interview prep and shake off those nerves
                             <br />
                         </p>
@@ -48,7 +48,7 @@ const PrepSection = () => {
                         <iframe
                             class="rounded-iframe"
                             width="560"
-                            height="315"
+                            height="360"
                             src="https://www.youtube-nocookie.com/embed/7WaGFlpCSEc?si=gbKJwxV_I3d1OIYd"
                             title="YouTube video player"
                             frameborder="0"
@@ -59,14 +59,17 @@ const PrepSection = () => {
                     <Col span={1} />
                 </Row>
             </Col>
-            <footer>
-                <p style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }}>  &copy; 2024 Shortcut. All rights reserved.</p>
-                <div>
-                    <a style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/abhinavkrishnamurthy/" target="_blank" rel="noopener noreferrer">Abhinav K</a> | 
-                    <a  style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/prasad-pilankar-5b2627144/" target="_blank" rel="noopener noreferrer">Prasad P</a> |
-                    <a style={{ fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }} href="https://www.linkedin.com/in/ramgopal96/" target="_blank" rel="noopener noreferrer">Ramgopal</a>
+            <br></br>
+            <footer style={{ height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center', backdropFilter: 'blur(10px)', width: '100%', marginTop: '4%' }}>
+                <div style={{ padding: '20px', fontFamily: 'Satoshi-Light', textAlign: '-webkit-left' }}>
+                    <p>&copy; 2024 Shortcut. All rights reserved.</p>
+                    <a href="https://www.linkedin.com/in/abhinavkrishnamurthy/" target="_blank" rel="noopener noreferrer">Abhinav K</a> |
+                    <a href="https://www.linkedin.com/in/prasad-pilankar-5b2627144/" target="_blank" rel="noopener noreferrer">Prasad P</a> |
+                    <a href="https://www.linkedin.com/in/ramgopal96/" target="_blank" rel="noopener noreferrer">Ramgopal</a>
                 </div>
             </footer>
+
+
 
         </div>
 

@@ -189,10 +189,45 @@ body {
   
   .centered-image {
     max-width: 100%;
-    height: auto;
-    max-height: 500px; 
-    padding-top: 27%;
+    padding-top: 15%;
     /* Set a max-height for the image box */
+  }
+
+  .down-arrow {
+  position: absolute;
+  top: calc(100vh - 100px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 0.5%;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 3.5s infinite;
+  color: #716f6f;
+  }
+
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: -5%;
+    }
+    100% {
+      margin-top: 0%;
+    }
   }
 
   .resume-section {
@@ -292,7 +327,6 @@ body {
   
   .rounded-iframe {
     border-radius: 15px;
-}
-  
+  }
   /* Add styles for each section as needed */
   
